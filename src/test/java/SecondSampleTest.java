@@ -6,7 +6,7 @@ import java.util.Random;
 public class SecondSampleTest {
     private final Random random = new Random();
 
-    @Test
+    @Test (description = "EPMFARMATS-828")
     public void testMethod() {
         boolean r = random.nextBoolean();
         Assert.assertTrue(r);

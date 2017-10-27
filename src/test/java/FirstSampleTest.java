@@ -11,7 +11,7 @@ public class FirstSampleTest {
     private final Random random = new Random();
 
 
-    @Test ()
+    @Test (alwaysRun = true)
     public void fakeMethod() {
         Assert.assertTrue(false);
 

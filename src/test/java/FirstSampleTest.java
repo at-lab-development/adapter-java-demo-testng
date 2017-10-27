@@ -10,7 +10,14 @@ import java.util.Random;
 public class FirstSampleTest {
     private final Random random = new Random();
 
+
     @Test ()
+    public void fakeMethod() {
+        Assert.assertTrue(false);
+
+    }
+
+    @Test (dependsOnMethods = "fakeMethod")
     @JIRATestKey(key = "EPMFARMATS-826")
     public void testMethod() {
         boolean r = random.nextBoolean();

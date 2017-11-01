@@ -30,7 +30,6 @@
                 <version>2.20</version>
             </plugin>
         </plugins>
-
     </build>
 
     <dependencies>
@@ -43,8 +42,9 @@
         <dependency>
             <groupId>com.epam.jira</groupId>
             <artifactId>test-management</artifactId>
-            <version>1.2</version>
+            <version>1.4</version>
         </dependency>
+
     </dependencies>
 
 </project>

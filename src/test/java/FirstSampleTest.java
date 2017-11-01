@@ -17,7 +17,7 @@ public class FirstSampleTest {
 
     }
 
-    @Test (dependsOnMethods = "fakeMethod")
+    @Test ()
     @JIRATestKey(key = "EPMFARMATS-826")
     public void testMethod() {
         boolean r = random.nextBoolean();

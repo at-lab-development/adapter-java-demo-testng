@@ -14,7 +14,10 @@ public class FourthSampleTest {
     @Test ()
     public void testMethod() {
         boolean r = random.nextBoolean();
-        Assert.assertTrue(r);
+        Assert.assertTrue(true);
+        Assert.assertTrue(true);
+        Assert.assertTrue(true);
+        Assert.assertTrue(true);
     }
 
 }

@@ -1,5 +1,5 @@
 import com.epam.jira.JIRATestKey;
-import com.epam.jira.core.JiraInfoProvider;
+import com.epam.jira.util.JiraInfoProvider;
 import com.epam.jira.testng.ExecutionListener;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;

@@ -5,6 +5,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 
 public class FourthSampleTest {
@@ -12,12 +13,11 @@ public class FourthSampleTest {
 
     @JIRATestKey(key = "EPMFARMATS-827")
     @Test ()
-    public void testMethod() {
+    public void testMethod() throws InterruptedException {
         boolean r = random.nextBoolean();
+        TimeUnit.SECONDS.sleep(2);
         Assert.assertTrue(true);
-        Assert.assertTrue(true);
-        Assert.assertTrue(true);
-        Assert.assertTrue(true);
+
     }
 
 }

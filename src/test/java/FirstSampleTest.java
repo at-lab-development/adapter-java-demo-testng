@@ -22,9 +22,6 @@ public class FirstSampleTest {
     @Test (dependsOnMethods = "fakeMethod")
     @JIRATestKey(key = "EPMFARMATS-826")
     public void testMethod() {
-        JiraInfoProvider.saveValue("Value1", "Sample");
-        JiraInfoProvider.saveValue("Value2", "Sample");
-        JiraInfoProvider.saveValue("Value3", "Sample");
         boolean r = random.nextBoolean();
         Assert.assertTrue(r);
 

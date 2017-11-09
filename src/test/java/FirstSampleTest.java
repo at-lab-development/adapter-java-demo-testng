@@ -22,8 +22,9 @@ public class FirstSampleTest {
     @Test (dependsOnMethods = "fakeMethod")
     @JIRATestKey(key = "EPMFARMATS-826")
     public void testMethod() {
-        JiraInfoProvider.saveFile(new File("C:\\Users\\Uladzimir_Pryhazhana\\IdeaProjects\\sample-tests\\.gitignore"));
-        JiraInfoProvider.saveFile(new File("C:\\Users\\Uladzimir_Pryhazhana\\IdeaProjects\\sample-tests\\.gitignore"));
+        JiraInfoProvider.saveValue("Value1", "Sample");
+        JiraInfoProvider.saveValue("Value2", "Sample");
+        JiraInfoProvider.saveValue("Value3", "Sample");
         boolean r = random.nextBoolean();
         Assert.assertTrue(r);
 

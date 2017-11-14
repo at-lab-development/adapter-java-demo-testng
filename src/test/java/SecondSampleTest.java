@@ -14,7 +14,7 @@ public class SecondSampleTest {
     @Test ()
     public void testMethod() {
         boolean r = random.nextBoolean();
-        int i = 1/0;
+        Assert.assertTrue(r);
     }
 
 }

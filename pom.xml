@@ -43,9 +43,9 @@
         <dependency>
             <groupId>com.epam.jira</groupId>
             <artifactId>test-management</artifactId>
-            <version>1.6</version>
+            <version>1.7</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/test-management-1.6.jar</systemPath>
+            <systemPath>${project.basedir}/test-management-adapter-1.7-jar-with-dependencies.jar</systemPath>
         </dependency>
 
         <dependency>
